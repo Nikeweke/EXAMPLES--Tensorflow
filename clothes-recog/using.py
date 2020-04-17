@@ -40,7 +40,7 @@ model = keras.models.load_model("clothes-recog.h5")
 predictions = model.predict(test_images)
 
 # Индекс предсказания которого мы хотим посмотреть
-itemIndex = 5
+itemIndex = 1
 
 # Получаем массив из 10 предсказаний (почему именно 10? Так определил выходные нейроны(output neurons))
 # при создании модели с методом "Sequntial"
